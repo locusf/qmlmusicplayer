@@ -96,6 +96,11 @@ Item {
 
                     playQueue.skip(amount);
                 }
+                Component.onCompleted: {
+                    console.log(name);
+                    console.log(index);
+                    console.log(info);
+                }
             }
         }
 
